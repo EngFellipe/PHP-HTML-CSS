@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*O código acima serve para resetar, ou seja, eliminar os espaços naturais do html.*/
+    
+.job {
+    margin: 8px;
+    width: 30%;
+    height: 150px;
+    background-color: #cccccc;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*header{
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 0;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}*/
+
+.quebra{
+    clear: both;
+}
+/* A classe acima foi criada apenas para encerrar o efeito do float sobre o footer. */
+
+footer{
+    text-align: center;
+}
+
+#foto{
+    width: 100px;
+    height: 100px;
+    background-color: #666666;
+    margin: 0, auto;
+}
+
+h2{
+    font-size: 14px;
+    text-align: center;
+}
+
+nav{
+    margin: 4px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.formação{
+    list-style-type: circle;
+    margin-left: 16px;
+}
+
+.cursos{
+    list-style-type: circle;
+    margin-left: 16px;
+}
+
+.experiencia{
+    text-align: justify;
+}
+
+.nome{
+    font-size: 50px;
+}
+
+.pessoal{
+    margin: 12px 0;
+    border-top: solid 3px #cccccc;
+}
+
+.contato{
+    margin: 12px;
+    border-top: solid 3px #cccccc;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-top: 18px;
+    border-top: solid 3px #cccccc;
+}
+
+h4{
+    margin: 4px 0;
+}
+
+p{
+    margin: 18px 0;
+}
+
+.destaque-vermelho{
+    color: #cc0000;
+}
+
+.job{
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+    float: left;
+    margin: 4px;
+}
+
+li{
+    margin: 8px 0;
+}
+
+/* -- Mobile: As regras abaixo são apenas para telas grandes. -- */
+@media(min-width: 1024px){
+    aside{
+        width: 22%;
+        height: 1400px;
+        float: left;
+        padding: 4px;
+        text-align: center;
+        background-color: #424953;
+        color: #ffffff;
+    }
+    
+    main{
+        width: 72%;
+        float: right;
+        padding: 4px;
+    }
+}
